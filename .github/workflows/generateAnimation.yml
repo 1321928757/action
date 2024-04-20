@@ -4,6 +4,10 @@ on:
   # run automatically every 12 hours
   schedule:
     - cron: "0 2 * * *"
+    - cron: "0 8 * * *" 
+    - cron: "0 14 * * *" 
+    - cron: "0 20 * * *"
+    - cron: "0 22 * * *"
 
   # allows to manually run the job at any time
   workflow_dispatch:
