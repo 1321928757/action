@@ -15,7 +15,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}  
           USERNAME: ${{ github.repository_owner }}
-      - with:
+        with:
           target_branch: 3d-profile-table
       - name: Commit & Push
         run: |
